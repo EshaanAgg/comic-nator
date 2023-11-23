@@ -6,7 +6,7 @@ const fs = require('fs').promises;
 const { createCanvas } = require('canvas');
 const sharp = require('sharp');
 
-const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.";
+const text = "Another day of life-saving for our superhero. Not a day goes by without him saving the city.";
 const maxWidth = 512;
 const imageBuffer = textToImage(text, maxWidth);
 

@@ -5,7 +5,7 @@ const { createCanvas } = require('canvas');
 function textToImage(text, maxWidth) {
     const canvas = createCanvas(512, 616);
     const context = canvas.getContext('2d');
-    context.font = '22px Arial';
+    context.font = '22px trebuchet ms';
 
     const words = text.split(' ');
     const lines = [];
