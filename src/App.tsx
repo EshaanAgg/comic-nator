@@ -1,5 +1,7 @@
+import { UserInput } from './components/UserInput';
+
 function App() {
-  return <div className="text-black">Hello world</div>;
+  return <UserInput />;
 }
 
 export default App;
